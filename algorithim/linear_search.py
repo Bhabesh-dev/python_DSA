@@ -7,5 +7,12 @@ def linear_search(input_list, target):
     for item in range(0, len(input_list)):
         if input_list == target:
             return item
-
     return None
+
+
+def verify(index):
+    if index is not None:
+        print(f"Target found at index: {index}")
+    else:
+        print("Target not found")
+
